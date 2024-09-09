@@ -3,12 +3,10 @@
 
 using namespace std;
 
-
 char Key;
 int PlayerX = 1;
 int PlayerY = 1;
 bool bIsRunning = true;
-
 
 void MakeMap(int** arr, int row, int col)
 {
@@ -17,6 +15,7 @@ void MakeMap(int** arr, int row, int col)
 		arr[i] = new int[col];
 	}
 }
+
 void deleteMakeMap(int** arr, int row, int col)
 {
 	for (int i = 0; i < row; i++)
